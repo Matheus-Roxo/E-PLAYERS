@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 400; 700 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 
 :root{
 
     --background: #000000;
-    --red: #c20000;
-    --blue:#001F70; 
+    --red: #C20000;
+    --blue: #001F70;
     --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
 
     --font: 'Titillium Web', sans-serif;
@@ -17,20 +17,20 @@
     box-sizing: border-box;
 }
 
- body{
-     font-family: var( --font);
-     font-size: 16px;
-     background-color: var( --background);
- }
+body{
+    font-family: var( --font );
+    font-size: 16px;
+    background-color: var( --background );
+}
 
- img{
-     width: 100%;
- }
+img{
+    width: 100%;
+}
 
- .topo{
+.topo{
     width: 100%;
     height: 5em;
-    /*background-color: azure;*/
+    /* background-color: azure; */
 }
 
 .content{
@@ -38,7 +38,7 @@
     height: 100%;
     max-width: 75em;
     margin: auto;
-    /*background-color: yellowgreen;*/
+    /* background-color: burlywood; */
 }
 
 .flex-center-bt{
@@ -49,6 +49,7 @@
 
 .topo img{
     max-width: 21.18em;
+
 }
 
 .menu{
@@ -64,10 +65,10 @@
 }
 
 .menu a{
-    color: #ffffff;
+    color:#fff;
     text-decoration: none;
     font-size: 1.5em;
-    padding: 0.9em 1em;
+    padding: 0.9em 0.5em;
     text-transform: uppercase;
 }
 
@@ -79,14 +80,77 @@
     display: none;
 }
 
- @media screen and (max-width: 74.93em){
+.banner{
+    width: 100%;
+    position: relative;
+}
 
- }
+.banner-position{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 255, 0.377); */
+    position: absolute;
+    top: 0;
+}
 
- @media screen and (max-width: 47.93em){
+.banner-content{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(222, 184, 135, 0.356); */
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
 
- }
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
 
- @media screen and (max-width: 35.93em){
+.banner-text h1{
+    font-size: 5.62em;
+}
 
- }
+.banner-text p{
+    font-size: 1.87em;
+}
+
+.banner-text a{
+    font-size: 1.87em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--red);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+.jogos{
+    width: 100%;
+    height: 7.5em;
+    /* background-color: chartreuse; */
+}
+
+.jogos ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 74.93em){
+
+}
+
+@media screen and (max-width: 47.93em){
+
+}
+
+@media screen and (max-width: 35.93em){
+   
+}
