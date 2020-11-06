@@ -106,7 +106,8 @@ img{
 }
 
 .banner-text{
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
     height: 100%;
     /* background-color: chartreuse; */
     display: flex;
@@ -345,10 +346,12 @@ img{
     width: 100%;
     padding: 1em 0;
     color:#fff;
+    /* background-color: aqua; */
 }
 
 .logo-rodape{
-    max-width: 18.75em;
+    width: 100%;
+    max-width: 18.72em
 }
 
 .links-footer{
@@ -455,7 +458,7 @@ img{
         width: 47%;
     }
 
-    .partidas img{
+    .partida img{
         width: 50%;
     }
     
@@ -472,24 +475,59 @@ img{
     }
 
     .proximos-jogos img{
-        width:70% ;
+        width: 70%;
     }
 
     .rodape{
-        width: 50%;
+        width: 100%;
     }
 
-    .logo-rodape img{
-        width: 10px;
+    .logo-rodape{
+        max-width: 15em;
+    }
 
+}
+
+@media screen and (max-width: 61.93em)/*991px*/{
+    .logo-rodape{
+       max-width: 30%;
+    } 
+
+    .rodape{
+        font-size: 0.8em;
+    }
 }
 
 
 @media screen and (max-width: 47.93em)/*768px*/{
 
+    .footer2{ 
+        flex-direction: column;
+    }   
 }
 
 
 @media screen and (max-width: 35.93em)/*576px*/{
 
+    .banner-text h1{
+        font-size: 45px;
+    }
+
+    .banner-text{
+        max-width: 100%;
+        text-shadow: 0px 0px 7px black;      
+    }
+
+    .banner-text p{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .about img{
+        width: 40%;
+    }
+
+    .about-text{
+        margin-left: 10px;
+    }
 }
